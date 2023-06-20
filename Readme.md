@@ -1,4 +1,3 @@
-```
 # Facebook Comments Analyzer using Agents
 
 This Python script analyzes comments on a Facebook page and hides comments that contain offensive words. It utilizes the [uagents](https://pypi.org/project/uagents/) library and the Facebook Graph API.
@@ -17,7 +16,8 @@ This Python script analyzes comments on a Facebook page and hides comments that 
 2. Install the required dependencies by running the following command:
 
    ```bash
-   pip install -r requirements.txt
+   pip install request 
+   pip install uagents
    ```
 
 3. Create a `.env` file in the project directory and add the following environment variables:
@@ -29,6 +29,8 @@ This Python script analyzes comments on a Facebook page and hides comments that 
    POST_LIMIT=<optional_post_limit>
    COMMENTS_SINCE_MIN=<optional_comments_since_minutes>
    ```
+   I have created a example env file you can copy and add your information there.
+   I have already added offensive words if you wish to want to add somethings feel free to do 
 
    - `ACCESS_TOKEN`: Your Facebook user access token with the necessary permissions.
    - `PAGE`: The name or ID of the Facebook page you want to analyze.
@@ -53,6 +55,6 @@ You can adjust the `POST_LIMIT` and `COMMENTS_SINCE_MIN` environment variables t
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Make sure to save this content as `README.md` in the same directory as your script file. Feel free to modify and enhance the content according to your specific needs.
+
+Feel free to modify and enhance the script according to your specific needs. Make sure to follow the Facebook API guidelines and respect user privacy when using the script on real-world scenarios.

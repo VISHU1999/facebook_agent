@@ -51,6 +51,10 @@ The script will start analyzing the comments on the specified Facebook page and 
 If the `PAGE` environment variable is not specified, the script will analyze comments on all Facebook pages associated with the user.
 
 You can adjust the `POST_LIMIT` and `COMMENTS_SINCE_MIN` environment variables to modify the script's behavior.
+## Demo video 
+
+https://github.com/VISHU1999/facebook_agent/assets/70027559/ab074639-425e-4d24-8479-e9763f32bf18
+
 
 ## License
 
